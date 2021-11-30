@@ -1,3 +1,11 @@
 .titlehome {
-    color: blue;
+    color: rgb(170, 71, 71);
+}
+
+.row {
+    display: flex;
+}
+
+.titleDesc {
+    font-size: 16px;
 }

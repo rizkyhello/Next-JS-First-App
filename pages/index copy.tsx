@@ -70,3 +70,33 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
+
+import Header from "../components/Header";
+import styles from "../styles/Home.module.css";
+
+const Home = () => {
+  return (
+    <>
+      <Header />
+      <h1 className="title"> Welcome Aplikasi Simple Next </h1>
+      <section>
+        <div>
+          <label htmlFor="">Username : </label>
+          <input type="text" name="username" />
+        </div>
+        <br />
+        <div>
+          <label htmlFor="">Password : </label>
+          <input type="password" name="password" />
+        </div>
+        <br />
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Home;
